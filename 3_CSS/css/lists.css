@@ -6,3 +6,13 @@ ul {
 li {
   color: darkblue;
 }
+
+/* 
+
+1px: Define a largura da borda como 1 pixel.
+solid: Define o estilo da borda como uma linha sólida.
+blue: Define a cor da borda como azul.
+
+padding: 10px;: Esta propriedade define o espaçamento interno (padding) dentro da lista.
+10px: Adiciona 10 pixels de espaço entre o conteúdo da lista (os itens da lista) e a borda da lista.
+*/

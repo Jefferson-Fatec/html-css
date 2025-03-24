@@ -7,10 +7,42 @@
     <title>CSS</title>
     <!-- 3 - Internal CSS -->
     <style>
-      p {
+      
+
+        /*
+Valores absolutos:
+px (pixels): Define o tamanho da fonte em pixels, uma unidade fixa.
+Exemplo: font-size: 16px;
+
+pt (pontos): Unidade usada em impressão, geralmente não recomendada para web devido a variações na renderização.
+Exemplo: font-size: 12pt;
+*/
+    p {
         /* color: gold; */
         font-size: 40px;
       }
+        /* COMENTARIOS DO CSS*/
+
+/*
+Valores relativos:
+
+em: Relativo ao tamanho da fonte do elemento pai. Um valor de 1em é igual ao tamanho da fonte do pai.
+Exemplo: font-size: 1.5em; (1.5 vezes o tamanho da fonte do pai)
+
+rem: Relativo ao tamanho da fonte do elemento raiz (<html>). Útil para manter consistência em todo o site.
+Exemplo: font-size: 1.2rem; (1.2 vezes o tamanho da fonte raiz)
+
+% (porcentagem): Semelhante a em, mas expresso como porcentagem.
+Exemplo: font-size: 120%; (120% do tamanho da fonte do pai)
+
+vw (viewport width): Relativo à largura da janela de visualização. 1vw é igual a 1% da largura da janela.
+Exemplo: font-size: 2vw;
+
+vh (viewport height): Relativo à altura da janela de visualização. 1vh é igual a 1% da altura da janela.
+Exemplo: font-size: 3vh;
+
+*/
+     
     </style>
     <!-- 4 - External CSS -->
     <!-- Cascading Style Sheets -->
@@ -33,9 +65,9 @@
     <p>Mais um</p>
     <p>E mais outro</p>
 
-    <!-- 48 - sticky -->
+    <!-- 48 - sticky Elemento Fixo  -- elemento fixo com CSS -- -->
     <div class="sticky">
-      <span>Eu sou sticky!</span>
+      <span>Eu sou sticky! é posicionado com base na posição de rolagem do usuário.</span>
     </div>
 
     <!-- 4 - External CSS -->
@@ -241,7 +273,7 @@
 
     <!-- 47 - fixed -->
     <div class="fixed">
-      <span>Estou fixo</span>
+      <span>Estou fixo ++ sempre fixo</span>
     </div>
 
     <!-- 48 - z-index -->
